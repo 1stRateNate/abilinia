@@ -11,10 +11,14 @@ export class LoginFormComponent {
       Validators.required,
       Validators.email,
     ]),
-    password: new FormControl<string | null>(null, [Validators.required]),
+    password: new FormControl<string | null>('', [Validators.required]),
   });
 
   get email(): FormControl<string> {
     return this.loginForm.get('email') as FormControl<string>;
+  }
+
+  get password(): FormControl<string> {
+    return this.loginForm.get('password') as FormControl<string>;
   }
 }

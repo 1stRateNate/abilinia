@@ -7,11 +7,16 @@ import { FormControl, NgControl } from '@angular/forms';
   templateUrl: './password.component.html',
 })
 export class PasswordComponent extends SharedControlValueAccessor {
+  hide = true;
   constructor(@Optional() @Self() public override ngControl: NgControl) {
     super(ngControl);
   }
 
   get control(): FormControl {
     return this.ngControl?.control as FormControl;
+  }
+
+  toggleHide(): void {
+    this.hide = !this.hide;
   }
 }

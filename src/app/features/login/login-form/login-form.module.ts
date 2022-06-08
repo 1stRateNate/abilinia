@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { MatInputModule } from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EmailLoginModule } from '../../../components/form-control/input/email-login/email-login.module';
+import { PasswordModule } from '../../../components/form-control/input/password/password.module';
 
 @NgModule({
   declarations: [LoginFormComponent],
@@ -13,6 +14,7 @@ import { EmailLoginModule } from '../../../components/form-control/input/email-l
     MatInputModule,
     FormControlModule,
     EmailLoginModule,
+    PasswordModule,
   ],
 })
 export class LoginFormModule {}
