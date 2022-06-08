@@ -37,3 +37,80 @@ $abilinia-theme: mat.define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.h25 {
+  height: 25%;
+}
+
+.h50 {
+  height: 50%;
+}
+
+.h75 {
+  height: 75%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.posRel {
+  position: relative;
+}
+
+.t25 {
+  top: 25%;
+}
+
+.t50 {
+  top: 50%;
+}
+
+.b25 {
+  bottom: 25%;
+}
+
+.b50 {
+  bottom: 50%;
+}
+
+.l25 {
+  left: 25%;
+}
+
+.l50 {
+  left: 50%;
+}
+
+.r25 {
+  right: 25%;
+}
+
+.r50 {
+  right: 50%;
+}
+
+.p5 {
+  padding: 5px;
+}
+
+.p10 {
+  padding: 10px;
+}
+
