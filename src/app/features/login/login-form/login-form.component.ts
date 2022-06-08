@@ -6,7 +6,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   templateUrl: './login-form.component.html',
 })
 export class LoginFormComponent {
-  loginForm = new FormGroup({
+  loginForm: FormGroup = new FormGroup({
     email: new FormControl<string | null>(null, [
       Validators.required,
       Validators.email,

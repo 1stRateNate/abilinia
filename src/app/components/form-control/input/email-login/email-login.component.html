@@ -1,5 +1,6 @@
 <mat-form-field appearance="fill">
-  <ng-content></ng-content>
+  <mat-label>Email</mat-label>
+  <input matInput placeholder="Email" [formControl]="control"/>
   <mat-hint></mat-hint>
   <mat-error></mat-error>
 </mat-form-field>

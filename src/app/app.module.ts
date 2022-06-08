@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginModule } from './features/login/login.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent],
@@ -12,6 +13,7 @@ import { LoginModule } from './features/login/login.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     LoginModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
